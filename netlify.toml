@@ -1,0 +1,14 @@
+[[headers]]
+  for = "/hawaii202702/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/hawaii202702/assets-mobile/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/hawaii202702/index.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
